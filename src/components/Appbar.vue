@@ -7,14 +7,22 @@
         <v-toolbar-title>Title</v-toolbar-title> -->
         <v-spacer></v-spacer>
         <v-btn to="/" depressed text
-          ><v-icon left>mdi-home</v-icon> Home</v-btn
+          ><span class="hidden-md-and-down"
+            ><v-icon left>mdi-home</v-icon> Home</span
+          ><span class="hidden-lg-and-up"
+            ><v-icon>mdi-home</v-icon></span
+          ></v-btn
         >
         <v-btn
           depressed
           text
           class="ma-2"
           href="https://mail.google.com/mail/?view=cm&fs=1&to=randijulio13@gmail.com"
-          ><v-icon left>mdi-email</v-icon> Email Me</v-btn
+          ><span class="hidden-md-and-down"
+            ><v-icon left>mdi-email</v-icon> Email Me</span
+          ><span class="hidden-lg-and-up"
+            ><v-icon>mdi-email</v-icon></span
+          ></v-btn
         >
         <v-btn
           depressed
@@ -22,7 +30,11 @@
           class="ma-2"
           download
           href="assets/RandiYulioFajri.pdf"
-          ><v-icon left>mdi-clipboard-account</v-icon> My Resume</v-btn
+          ><span class="hidden-md-and-down"
+            ><v-icon left>mdi-clipboard-account</v-icon> My Resume</span
+          ><span class="hidden-lg-and-up"
+            ><v-icon>mdi-clipboard-account</v-icon></span
+          ></v-btn
         >
       </v-container>
     </v-app-bar>

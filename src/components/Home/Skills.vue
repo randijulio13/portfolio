@@ -5,7 +5,7 @@
         <h1 class="display-2 font-weight-light">My Skills</h1>
       </v-col>
       <v-col
-        class="d-flex align-center"
+        class="d-flex align-center justify-center text-center"
         lg="1"
         md="2"
         sm="4"

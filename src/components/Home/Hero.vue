@@ -45,7 +45,7 @@
             ><v-icon left>mdi-clipboard-account</v-icon> My Resume</v-btn
           >
         </v-col>
-        <v-col  lg="6" class="d-none d-lg-flex justify-center pb-0">
+        <v-col  lg="6" class="hidden-md-and-down justify-center pb-0">
           <v-img contain max-height="500" src="@/assets/me.jpg"></v-img>
         </v-col>
       </v-row>
