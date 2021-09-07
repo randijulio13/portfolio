@@ -7,12 +7,13 @@
         <v-toolbar-title>Title</v-toolbar-title> -->
         <v-spacer></v-spacer>
         <v-btn to="/" depressed text
-          ><span class="hidden-md-and-down"
+          ><span class="hidden-sm-and-down"
             ><v-icon left>mdi-home</v-icon> Home</span
-          ><span class="hidden-lg-and-up"
+          ><span class="hidden-md-and-up"
             ><v-icon>mdi-home</v-icon></span
           ></v-btn
         >
+        <v-spacer></v-spacer>
         <v-btn
           depressed
           dark
