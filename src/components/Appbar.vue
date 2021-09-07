@@ -15,17 +15,6 @@
         >
         <v-btn
           depressed
-          text
-          class="ma-2"
-          href="https://mail.google.com/mail/?view=cm&fs=1&to=randijulio13@gmail.com"
-          ><span class="hidden-md-and-down"
-            ><v-icon left>mdi-email</v-icon> Email Me</span
-          ><span class="hidden-lg-and-up"
-            ><v-icon>mdi-email</v-icon></span
-          ></v-btn
-        >
-        <v-btn
-          depressed
           dark
           class="ma-2"
           download
