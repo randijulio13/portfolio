@@ -4,8 +4,8 @@
       <v-row class="pt-5">
         <v-col lg="6" class="light align-self-center">
           <div class="ma-2">
-            <h1 class="display-2 font-weight-light white--text">Hello, I'm</h1>
-            <h1 class="display-3 my-2 font-weight-black white--text">
+            <h1 class="display-1 font-weight-light white--text">Hello, I'm</h1>
+            <h1 class="display-2 my-2 font-weight-black white--text">
               Randi Yulio Fajri
             </h1>
             <h1 class="display-1 font-weight-light white--text">
