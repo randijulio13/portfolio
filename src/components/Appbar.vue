@@ -13,7 +13,6 @@
             ><v-icon>mdi-home</v-icon></span
           ></v-btn
         >
-        <v-spacer></v-spacer>
         <v-btn
           depressed
           dark
