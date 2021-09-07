@@ -1,6 +1,6 @@
 <template>
   <v-card elevation="1">
-    <v-img :src="portfolio.photos[0]"></v-img>
+    <v-img lazy-src="https://picsum.photos/16/9" :src="portfolio.photos[0]"></v-img>
     <v-card-text>
       <h1 class="font-weight-bold title">{{ portfolio.title }}</h1>
       <h1 class="font-weight-light subtitle-2">{{ portfolio.detail }}</h1>

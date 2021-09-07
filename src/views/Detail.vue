@@ -8,7 +8,7 @@
               <v-carousel-item
                 v-for="(photo, i) in portfolio.photos"
                 :key="i"
-                :src="photo"
+                :src="photo"  lazy-src="https://picsum.photos/16/9"
               ></v-carousel-item>
             </v-carousel>
           </v-col>
